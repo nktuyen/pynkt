@@ -1,3 +1,15 @@
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+[project]
+name = "pyopt"
+version = "0.0.1"
+description = "Option parser"
+readme="README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = {name="Tuyen Nguyen", email="nktuyen@outlook.com"}
+maintainers = {name="Tuyen Nguyen", email="nktuyen@outlook.com"}
+keywords = ["optparser", "option parser", "option", "tuyen", "nkt", "nktuyen", "tuyen nguyen"]
+classifiers = ["Programming Language :: Python"]
+dynamic = ["version"]

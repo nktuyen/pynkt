@@ -1,2 +1,2 @@
-# pyopt
-Python option parser
+# pynkt
+NKT python packages

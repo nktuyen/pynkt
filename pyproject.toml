@@ -2,14 +2,17 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "pyopt"
+name = "nkt"
 version = "0.0.1"
-description = "Option parser"
+description = "NKT python packages"
 readme="README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
-authors = {name="Tuyen Nguyen", email="nktuyen@outlook.com"}
-maintainers = {name="Tuyen Nguyen", email="nktuyen@outlook.com"}
+authors = [{name="Tuyen Nguyen", email="nktuyen@outlook.com"}]
+maintainers = [{name="Tuyen Nguyen", email="nktuyen@outlook.com"}]
 keywords = ["optparser", "option parser", "option", "tuyen", "nkt", "nktuyen", "tuyen nguyen"]
 classifiers = ["Programming Language :: Python"]
-dynamic = ["version"]
+#dynamic = ["version"]
+[project.urls]
+Homepage = "https://www.nktuyen.com/it/sw/packages/pynkt"
+Repository = "https://github.com/nktuyen/pynkt.git"
